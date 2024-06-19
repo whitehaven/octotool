@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "octotool")(type "KiCad")(uri "${KIPRJMOD}/octotool.pretty")(options "")(descr ""))
+)
