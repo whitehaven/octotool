@@ -1,0 +1,108 @@
+(footprint "XY2500R Receptacle"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.04 0.971916 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d0ec3128-ed4e-4987-9e12-4b96f565a5d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XY2500R"
+		(at -1 -7 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3788deea-6818-43ca-bc19-c7fde13257e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 8 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2065177-63be-4272-93ef-6d0fc284df0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 8 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "436e42eb-9bfe-47b2-8a72-0381f8894862")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 8 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efb39a1a-7a9d-4859-a529-ca5d2561ed6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 -12)
+		(end 8.08 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "7eddc4ce-57d6-4b74-bab9-2434ac4ad985")
+	)
+	(fp_rect
+		(start -0.5 -12.5)
+		(end 8.5 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e8a20c1f-d338-4b3a-9db4-ab06d7fbd984")
+	)
+	(pad "1" thru_hole circle
+		(at 1.5 -10)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dcd2b53a-7227-4d91-9b16-49e90a5fe947")
+	)
+	(pad "2" thru_hole circle
+		(at 6.58 -10)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c64c6e58-c69c-4312-a416-97597a4c162c")
+	)
+)
