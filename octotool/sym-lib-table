@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "octotool")(type "KiCad")(uri "${KIPRJMOD}/octotool.kicad_sym")(options "")(descr ""))
+)
